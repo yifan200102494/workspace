@@ -1,4 +1,3 @@
-
 1.Download XAMPP
 2.Locate the htdocs folder in XAMPP
 3.Delete all original files
@@ -8,4 +7,3 @@
 7.Enter localhost/index in the search bar
 
 Then it should be all right
->>>>>>> 17d1f2c (test the code)

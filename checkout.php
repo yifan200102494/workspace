@@ -35,6 +35,7 @@
         </div>
       </div>
     </div>
+    
     <main class="checkout-container">
       <div class="checkout-form">
         <section class="contact-section">
@@ -229,7 +230,7 @@
             <a href="#">Support</a>
           </div>
         </div>
-
+        
         <div class="second-row">
           <div class="links-column socials-column">
             <h2>Social Media</h2>

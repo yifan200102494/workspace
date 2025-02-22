@@ -13,7 +13,7 @@
       <div class="menuOption">☰</div>
       <div class="bannerFormat">
         <div class="LBannerLinks">
-          <a href="about.php">About</a>
+          <a href="about.html">About</a>
           <a href="keyboards.php">Keyboards</a>
         </div>
         <a href="index.php">

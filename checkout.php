@@ -16,7 +16,7 @@
           <a href="about.html">About</a>
           <a href="keyboards.php">Keyboards</a>
         </div>
-        <a href="index.php">
+        <a href="index.html">
           <img src="TerminusLogo.png" alt="Terminus Logo" class="logo">
         </a>
         <div class="RBannerLinks">

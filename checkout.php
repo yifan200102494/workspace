@@ -20,7 +20,7 @@
           <img src="TerminusLogo.png" alt="Terminus Logo" class="logo">
         </a>
         <div class="RBannerLinks">
-          <a href="misc.php">Blog</a>
+          <a href="Blog.html">Blog</a>
           <a href="contactus.php">Contact</a>
         </div>
       </div>

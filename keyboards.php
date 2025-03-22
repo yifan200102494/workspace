@@ -441,17 +441,17 @@ if ($result->num_rows > 0) {
                 </div>
                 <div class="links-column">
                     <h2>News</h2>
-                    <a href="keyboards.html">Keyboards</a>
-                    <a href="keyboards.html">Accessories</a>
+                    <a href="keyboards.php">Keyboards</a>
+                    <a href="keyboards.php">Accessories</a>
                     <a href="blog.html">Blog</a>
-                    <a href="contactus.html">FAQs</a>
+                    <a href="contactus.php">FAQs</a>
                 </div>
                 <div class="links-column">
                     <h2>Overview</h2>
                     <a href="./terms-and-conditions.html">Terms Of Use</a>
-                    <a href="contactus.html">Contact</a>
+                    <a href="contactus.php">Contact</a>
                     <a href="./terms-and-conditions.html">Privacy Policy</a>
-                    <a href="contactus.html">Support</a>
+                    <a href="contactus.php">Support</a>
                 </div>
             </div>
         </div>

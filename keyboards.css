@@ -405,8 +405,6 @@ select:focus {
   align-items: center;
   justify-content: space-between; 
   height: 100%; 
-  max-width: 300px;
-  margin: 0 auto;
 }
 
 .product-card:hover {

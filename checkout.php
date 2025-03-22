@@ -38,7 +38,9 @@
           <a href="#">🛒</a>
         </div>
       </div>
+      
     </div>
+  
     <main class="checkout-container">
         <div class="checkout-form">
             <section class="contact-section">

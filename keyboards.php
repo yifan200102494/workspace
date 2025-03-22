@@ -99,28 +99,7 @@ if ($result->num_rows > 0) {
     </div>
   </section>
 
-  <script>
-    document.getElementById('search-input').addEventListener('keydown', function(event) {
-  if (event.key === 'Enter') {
-    
-    const query = event.target.value.trim().toLowerCase();
-    
-    const products = document.querySelectorAll('.product-card');
-    
-    products.forEach(product => {
-      const productName = product.getAttribute('data-name').toLowerCase();
-      
-      
-      if (productName.includes(query)) {
-        product.style.display = 'flex'; 
-      } else {
-        product.style.display = 'none'; 
-      }
-    });
-  }
-});
-
-  </script>
+ 
 
 </body>
 </html>
@@ -465,12 +444,12 @@ if ($result->num_rows > 0) {
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // 1.1) 获取 URL 中的 keyword
+      
       const keyword = new URLSearchParams(window.location.search).get('keyword');
       const searchInput = document.getElementById('search-input');
       const searchResults = document.getElementById('search-input');
 
-      // 如果有 keyword，就填到搜索框，并触发一次搜索
+      
       if (keyword) {
         searchInput.value = keyword;
         doSearch(keyword);
@@ -597,5 +576,43 @@ document.getElementById("category-filter").addEventListener("change", function()
     });
 });
 </script>
+<!--search logic-->
+<script>
+    document.getElementById('search-input').addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    
+    const query = event.target.value.trim().toLowerCase();
+    
+    const products = document.querySelectorAll('.product-card');
+    
+    products.forEach(product => {
+      const productName = product.getAttribute('data-name').toLowerCase();
+      
+      
+      if (productName.includes(query)) {
+        product.style.display = 'flex'; 
+      } else {
+        product.style.display = 'none'; 
+      }
+    });
+  }
+});
+const urlParams = new URLSearchParams(window.location.search);
+const keyword = urlParams.get('keyword');
+if (keyword) {
+  const query = keyword.trim().toLowerCase();
+  const products = document.querySelectorAll('.product-card');
+
+  products.forEach(product => {
+    const productName = product.getAttribute('data-name').toLowerCase();
+    product.style.display = productName.includes(query) ? 'flex' : 'none';
+  });
+
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.value = keyword;
+  }
+}
+  </script>
   </body>
 </html>
